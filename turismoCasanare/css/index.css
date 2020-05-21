@@ -1,0 +1,106 @@
+html{
+	font-size:62.5%;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+}
+.header{
+	background-image:url("../portada.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 60vh;
+	min-height: 30rem;
+}
+.header {
+	height: 100%;
+	display: :flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header img{
+	margin-top: 25rem;
+}
+.contenido-header h1{
+	color: white;
+	padding-bottom: 2rem;
+	line-height: 2;
+}
+.barraNav{
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+.barraNav img{
+	height: 15rem;
+}
+.barraNav a{
+	color: white;
+	font-size: 2rem;
+	text-decoration-line: none;
+	margin-right: 2rem;
+}
+.barraNav a:hover{
+	color:blue;
+}
+.barraNavD{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.barraNavD img{
+	height: 15rem;
+}
+.barraNavD a{
+	color: white;
+	font-size: 2rem;
+	text-decoration-line: none;
+	margin-right: 2rem;
+}
+.barraNavD a:hover{
+	color:blue;
+}
+#solo{
+	margin-top: 10rem;
+	text-align: center;
+	margin-bottom: 10rem;
+}
+.main{
+	display: grid;
+	grid-template-columns: 40rem 40rem;
+	grid-template-rows: 40rem 40rem;
+	grid-column-gap: 10rem;
+}
+.main{
+	padding-top: 1.5rem;
+	justify-content: center;
+}
+.main img{
+	height: 20rem;
+}
+.main p{
+	max-width: 35rem;
+	text-align: justify-all;
+
+}
+.main h3{
+	text-align: center;
+
+}
+#foot img{
+	height: 10rem;
+}
+#foot{
+	display: flex;
+	flex-direction:unset;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F0B27A;
+	height: 15rem;
+}
+#contacto{
+	text-transform: lowercase;
+	font-size: 1.3rem;
+	font.color: white;
+}
