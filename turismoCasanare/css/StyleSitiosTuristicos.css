@@ -6,6 +6,15 @@ body{
 	font-size: 1.6rem;
 	background-color: #E5E8E8;
 }
+.navegacion{
+	background-color:#5DADE2;
+	height: 6rem;
+	padding-top: 2rem;
+	
+}
+.navegacion a{
+	margin-right: 10rem;
+}
 .lugaresSection{
 	display: grid;
 	grid-template-columns: 40rem 40rem 40rem;
@@ -29,6 +38,7 @@ body{
 	background-color: #F4F6F6;
 	max-height: 60rem;
 	max-width: 40rem;
+	text-align: justify;
 }
 .lugares p{
 	max-width: 40rem;
