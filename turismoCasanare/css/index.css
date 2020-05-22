@@ -36,13 +36,13 @@ body{
 	height: 15rem;
 }
 .barraNav a{
-	color: white;
+	color:#2C3E50;
 	font-size: 2rem;
 	text-decoration-line: none;
 	margin-right: 2rem;
 }
 .barraNav a:hover{
-	color:blue;
+	color:steelblue;
 }
 .barraNavD{
 	display: flex;

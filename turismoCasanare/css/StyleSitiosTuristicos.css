@@ -7,29 +7,32 @@ body{
 	background-color: #E5E8E8;
 }
 .navegacion{
-	background-color:#5DADE2;
+	display: flex;
+	align-items: center;
+	background-color:steelblue;
 	height: 6rem;
-	padding-top: 2rem;
-	
 }
 .navegacion a{
-	margin-right: 10rem;
+	margin-right: 4rem;
 	text-decoration-line: none;
+	color: black;
+}
+.navegacion a :first-of-type{
+	margin-left: 2rem;
+}
+.navegacion a :hover{
 	color: white;
 }
 .lugaresSection{
-	display: grid;
-	grid-template-columns: 40rem 40rem 40rem;
-	grid-template-rows: 60rem 60rem 60rem;
-	max-height: 60rem;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
-	grid-row-gap: 40rem;
 }
 .lugares h2{
 	text-align: center;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	max-width: 40rem;
 	background-color:#EAFAF1;
 }
 .lugaresSection img{
@@ -37,18 +40,19 @@ body{
 	max-width: 40rem;
 }
 .lugares{
+	margin-top: 10rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 	background-color: #F4F6F6;
-	max-height: 60rem;
-	max-width: 40rem;
 	text-align: justify;
 }
 .lugares p{
-	max-width: 40rem;
-	text-align: justify;
+	max-width: 38rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 #solo{
 	text-align: center;
-	margin-bottom: 20rem;
 	font-size: 4rem;
 	margin-left: 10rem;
 	margin-right: 10rem;
@@ -56,4 +60,18 @@ body{
 #solo p{
 	text-align: justify;
 	font-size: 2rem;
+}
+#foot{
+	padding-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: steelblue;
+}
+#foot a{
+	color: black;
+	text-decoration-line: none;
+}
+#foot a :hover{
+	color: whitesmoke;
 }
