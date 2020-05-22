@@ -17,7 +17,7 @@ body{
 .contenido-slider{
     width: 100%;
     /** espacio del fondo**/
-    height: 600px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -86,3 +86,5 @@ body{
     }
 
 }
+
+/************************************************************/
