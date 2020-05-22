@@ -14,6 +14,8 @@ body{
 }
 .navegacion a{
 	margin-right: 10rem;
+	text-decoration-line: none;
+	color: white;
 }
 .lugaresSection{
 	display: grid;
