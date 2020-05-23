@@ -12,6 +12,7 @@ body{
 .contenedor{
     width: 100%;
     overflow: hidden;
+    margin-bottom: 10rem;
 }
 
 .slider-contenedor{

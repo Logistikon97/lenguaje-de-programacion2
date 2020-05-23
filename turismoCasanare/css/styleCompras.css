@@ -4,7 +4,7 @@ html{
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.6rem;
-	background-color: #FEF9F8;
+	background-color: #f5f1e8;
 }
 .navegacion{
 	display: flex;
@@ -55,4 +55,13 @@ body{
 	max-width: 38rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
+}
+.solo{
+	font-family: 'Chelsea Market', cursive;
+	color: tomato;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-image: url(../Sources/backgroundShop.jpg);
 }
