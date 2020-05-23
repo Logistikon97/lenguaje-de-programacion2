@@ -9,19 +9,20 @@ body{
 .navegacion{
 	display: flex;
 	align-items: center;
-	background-color:steelblue;
+	background-image: url(../Sources/dots.png);
 	height: 6rem;
 }
 .navegacion a{
 	margin-right: 4rem;
 	text-decoration-line: none;
-	color: black;
+	font-size: 2rem;
+	color: white;
 }
 .navegacion a :first-of-type{
 	margin-left: 2rem;
 }
 .navegacion a :hover{
-	color: white;
+	color: salmon;
 }
 .lugaresSection{
 	display: flex;
@@ -61,17 +62,10 @@ body{
 	text-align: justify;
 	font-size: 2rem;
 }
-#foot{
-	padding-top: 1rem;
+
+#images {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: steelblue;
 }
-#foot a{
-	color: black;
-	text-decoration-line: none;
-}
-#foot a :hover{
-	color: whitesmoke;
+#images img{
+	height: 5rem;
 }

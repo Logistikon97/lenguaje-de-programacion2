@@ -65,3 +65,9 @@ body{
 	padding-bottom: 5rem;
 	background-image: url(../Sources/backgroundShop.jpg);
 }
+#images {
+	display: flex;
+}
+#images img{
+	height: 5rem;
+}

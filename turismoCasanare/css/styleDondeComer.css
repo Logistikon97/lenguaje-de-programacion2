@@ -1,0 +1,31 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Laila', serif;
+}
+.navegacion{
+	display: flex;
+	align-items: center;
+	background-image: url(../Sources/dots.png);
+	height: 6rem;
+}
+.navegacion a{
+	margin-right: 4rem;
+	text-decoration-line: none;
+	font-size: 2rem;
+	color: white;
+}
+.navegacion a :first-of-type{
+	margin-left: 2rem;
+}
+.navegacion a :hover{
+	color: salmon;
+}
+#images {
+	display: flex;
+}
+#images img{
+	height: 5rem;
+}
