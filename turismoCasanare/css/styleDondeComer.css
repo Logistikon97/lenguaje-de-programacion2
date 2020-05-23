@@ -3,7 +3,40 @@ html{
 }
 body{
     font-size: 1.6rem;
-    font-family: 'Laila', serif;
+	font-family: 'Catamaran', sans-serif;
+	
+}
+.lugaresSection{
+	/** poner justify-content: space-between; cuando son elementos multiplos de tres**/
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 2rem;
+}
+.lugaresSection :first-of-type{
+	margin-left: 0rem;
+}
+.lugares h2{
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	max-width: 40rem;
+	background-color:#EAFAF1;
+}
+.lugaresSection img{
+	height: 30rem;
+	max-width: 40rem;
+}
+.lugares{
+	margin-top: 10rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: #F4F6F6;
+	text-align: justify;
+}
+.lugares p{
+	max-width: 38rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 .navegacion{
 	display: flex;
