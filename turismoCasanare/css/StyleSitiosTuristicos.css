@@ -27,7 +27,6 @@ body{
 .lugaresSection{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 .lugares h2{
 	text-align: center;
@@ -39,6 +38,7 @@ body{
 .lugaresSection img{
 	height: 30rem;
 	max-width: 40rem;
+	align-items: center;
 }
 .lugares{
 	margin-top: 10rem;
