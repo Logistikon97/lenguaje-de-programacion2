@@ -4,7 +4,10 @@ html{
 body{
     font-size: 1.6rem;
 	font-family: 'Catamaran', sans-serif;
-	
+}
+.cabeza{
+	background-image: url(../Sources/ristorante.jpg);
+	background-size: 150rem;
 }
 .lugaresSection{
 	/** poner justify-content: space-between; cuando son elementos multiplos de tres**/
@@ -61,4 +64,45 @@ body{
 }
 #images img{
 	height: 5rem;
+}
+.navegacionf{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url(../Sources/dots.png);
+	height: 6rem;
+}
+.navegacionf a{
+	margin-right: 4rem;
+	text-decoration-line: none;
+	font-size: 1rem;
+	color: white;
+}
+.navegacionf h3{
+	font-size: 2rem;
+}
+.navegacionf a :first-of-type{
+	margin-left: 2rem;
+}
+.navegacionf a :hover{
+	color: salmon;
+}
+
+.solo h1{
+	font-family: 'Catamaran', sans-serif;
+	font-family: 'Fredoka One', cursive;
+	color: #279BEC;
+	font-size: 10rem;
+	text-align: center;
+}
+.solo p{
+	font-size: 2.5rem;
+	text-align: center;
+	text-align: justify;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	background-color: wheat;
+}
+.verde{
+	color:#57CA11;
 }
