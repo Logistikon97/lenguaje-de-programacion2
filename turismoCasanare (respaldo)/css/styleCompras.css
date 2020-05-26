@@ -1,0 +1,80 @@
+html{
+	font-size:62.5%;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	background-color: #f5f1e8;
+}
+.navegacion{
+	display: flex;
+	align-items: center;
+	height: 6rem;
+	background-image: url(../Sources/dots.png);
+}
+.navegacion a{
+	margin-right: 4rem;
+	text-decoration-line: none;
+	font-size: 1.5rem;
+	color: white;
+}
+.navegacion a :first-of-type{
+	margin-left: 2rem;
+}
+.navegacion a :hover{
+	color: salmon;
+}
+.navegacion img{
+	height: 2rem;
+}
+.nuevo{
+	display: flex;
+	background-image: url(../Sources/dots.png);
+}
+.solo{
+	text-align: center;
+	font-size: larger;
+}
+.lugaresSection{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.lugares h2{
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	max-width: 40rem;
+	background-color:#D6EAF8;
+}
+.lugaresSection img{
+	height: 30rem;
+	max-width: 40rem;
+}
+.lugares{
+	margin-top: 10rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color:#EBF5FB;
+	text-align: justify;
+}
+.lugares p{
+	max-width: 38rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.solo{
+	font-family: 'Chelsea Market', cursive;
+	color: tomato;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-image: url(../Sources/backgroundShop.jpg);
+}
+#images {
+	display: flex;
+}
+#images img{
+	height: 5rem;
+}

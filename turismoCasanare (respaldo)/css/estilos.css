@@ -12,7 +12,6 @@ body{
 .contenedor{
     width: 100%;
     overflow: hidden;
-    margin-bottom: 10rem;
 }
 
 .slider-contenedor{
@@ -29,12 +28,27 @@ body{
     flex-shrink: 0;
 }
 
+.contenido-slider:nth-child(2){
+    background: #332863;
+    color: #fff;
+}
+
+.contenido-slider:nth-child(3){
+    background: #611a68;
+}
+
 .contenido-slider > img{
-    size: auto;
+    width: 600px;
 }
 
 .contenido-slider > div{
     width: 40%;
+}
+
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .contenido-slider a{
@@ -57,7 +71,11 @@ body{
 
 @media screen and (max-width:900px){
     .contenido-slider > img{
-        width: 250px;
+        width: 500px;
+    }
+
+    .contenido-slider > div{
+        width: 40%;
     }
 
     .contenido-slider h2{

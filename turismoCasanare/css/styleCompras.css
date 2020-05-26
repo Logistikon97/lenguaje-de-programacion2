@@ -6,16 +6,74 @@ body{
 	font-size: 1.6rem;
 	background-color: #f5f1e8;
 }
+/* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
+.navegacion a {
+	line-height: 44px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.navegacion a span {
+	position: relative;
+	display: inline-block;
+	padding: 0 14px;
+	background-image: url(../Sources/dots.png);
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.csstransforms3d .navegacion a span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/**color transition**/
+	background-image: url(../Sources/dots.png);
+	content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+}
+
+.navegacion a:hover span,
+.navegacion a:focus span {
+	-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);
+}
+
+.csstransforms3d .navegacion a:hover span::before,
+.csstransforms3d .navegacion a:focus span::before {
+	background-image: url(../Sources/dots.png);	
+}
 .navegacion{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
 	display: flex;
 	align-items: center;
-	background-image: url(../Sources/dots.png);
 	height: 6rem;
+	background-image: url(../Sources/dots.png);
 }
 .navegacion a{
 	margin-right: 4rem;
 	text-decoration-line: none;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: white;
 }
 .navegacion a :first-of-type{
@@ -24,10 +82,11 @@ body{
 .navegacion a :hover{
 	color: salmon;
 }
-.solo{
-	text-align: center;
-	font-size: larger;
+.navegacion img{
+	margin-top: 2rem;
+	height: 6rem;
 }
+
 .lugaresSection{
 	display: flex;
 	flex-wrap: wrap;
@@ -57,17 +116,25 @@ body{
 	margin-right: 1rem;
 }
 .solo{
-	font-family: 'Chelsea Market', cursive;
-	color: tomato;
-	font-size: 2rem;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 5rem;
 	text-align: center;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	background-image: url(../Sources/backgroundShop.jpg);
+	background-color:rgb(80, 32, 32);
 }
-#images {
+#images{
 	display: flex;
+	justify-content: space-between;
 }
 #images img{
 	height: 5rem;
+	margin-left: 25rem;
+}
+.navegacionf{
+	display: flex;
+	align-items: center;
+	height: 6rem;
+	background-image: url(../Sources/dots.png);
 }
