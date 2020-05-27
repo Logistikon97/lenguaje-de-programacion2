@@ -27,14 +27,18 @@ body{
     align-items: center;
     flex-shrink: 0;
 }
-
+.contenido-slider:nth-child(1){
+    background-image: url(../Sources/dots.png);
+    color: #fff;
+}
 .contenido-slider:nth-child(2){
-    background: #332863;
+    background-image: url(../Sources/dots.png);
     color: #fff;
 }
 
 .contenido-slider:nth-child(3){
-    background: #611a68;
+    background-image: url(../Sources/dots.png);
+    color: #fff;
 }
 
 .contenido-slider > img{
@@ -49,6 +53,7 @@ body{
     font-weight: 300;
     text-align: justify;
     line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.295);
 }
 
 .contenido-slider a{
@@ -61,12 +66,6 @@ body{
     border-radius: 3px;
     margin-top: 20px;
     text-decoration: none;
-}
-
-.contenido-slider:nth-child(2) a{
-    background: #fff;
-    color: #332863;
-    
 }
 
 @media screen and (max-width:900px){

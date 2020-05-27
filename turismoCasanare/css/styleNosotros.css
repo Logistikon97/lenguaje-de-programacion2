@@ -6,6 +6,7 @@ body{
 	font-size: 1.6rem;
 	background-color: #E5E8E8;
 }
+
 .navegacion img{
 	height: 7rem;
 }
@@ -21,7 +22,7 @@ body{
 .navegacion a{
 	margin-right: 4rem;
 	text-decoration-line: none;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: white;
 }
 .navegacion a :first-of-type{
@@ -60,29 +61,24 @@ body{
 }
 
 .solo{
-    size: 100%;
-	background-image: url(../Sources/chiguiros.jpg);
+	padding-top: 25.2%;
 	background: url(../Sources/chiguiros.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
-    min-height: 80vh;
-  /**
-    background-position: center center;
-    background-size: cover;
-    **/
-    
+}
+#azul{
+	color: rgb(1, 139, 252);
+}
+#verde{
+	color: rgb(119, 194, 6);
 }
 .solo h1{
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: space-between;
-	font-family: 'Ropa Sans', sans-serif;
-    font-size: 6rem;
-    color: white;
-    background-color: rgba(100, 148, 237, 0.158);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.13);
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 10rem;
 }
 
 .navegacionf {

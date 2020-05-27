@@ -6,6 +6,9 @@ body{
 	font-size: 1.6rem;
 	background-color: #E5E8E8;
 }
+.navegacion img{
+	height: 7rem;
+}
 .navegacion{
 	display: flex;
 	align-items: center;
@@ -15,7 +18,7 @@ body{
 .navegacion a{
 	margin-right: 4rem;
 	text-decoration-line: none;
-	font-size: 2rem;
+	font-size: 1.58rem;
 	color: white;
 }
 .navegacion a :first-of-type{
@@ -40,6 +43,7 @@ body{
 	max-width: 40rem;
 	align-items: center;
 }
+
 .lugares{
 	margin-top: 10rem;
 	margin-left: 1rem;
@@ -62,10 +66,12 @@ body{
 	text-align: justify;
 	font-size: 2rem;
 }
-
-#images {
+.navegacionf{
 	display: flex;
+	flex-direction: row-reverse;
+	background-image: url(../Sources/dots.png);
 }
-#images img{
+.navegacionf img{
 	height: 5rem;
+	margin-right: 20rem;
 }
