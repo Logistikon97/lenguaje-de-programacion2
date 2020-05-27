@@ -23,7 +23,9 @@ body{
 .header img{
 	margin-top: 25rem;
 }
-
+main{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
 .barraNav{
 	padding-top: 2rem;
 	display: flex;
@@ -45,19 +47,23 @@ body{
 	color:rgb(101, 245, 149);
 }
 .prueba{
+	margin-left: 4rem;
+	margin-right: 4rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 .comer{
-	padding-top: 1rem;
 	padding-bottom: 2rem;
-	background-color: khaki;
+	background-image: url(../Sources/Gastronomia-carneAsada\ -\ copia.jpg);
+	background-size: cover;
 }
 .comer h3{
+	margin-left: 4rem;
 	font-size: 4rem;
 }
 .comer p{
+	background-color: rgba(0, 0, 0, 0.068);
 	font-size: 3rem;
 	max-width: 50rem;
 }
@@ -67,11 +73,14 @@ body{
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: center;
+	margin-right: 4rem;
 }
 .visitar{
+	margin-top: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
-	background-color: rgb(247, 148, 82);
+	background-image: url(../Sources/chiguirosDesenfoque.jpg);
+	background-size: cover;
 }
 .visitar h3{
 	direction: rtl;
@@ -79,25 +88,29 @@ body{
 	padding-right: 4rem;
 }
 .visitar p{
+	background-color: rgba(0, 0, 0, 0.144);
 	font-size: 3rem;
 	max-width: 50rem;
 	max-height: 30rem;	
 }
-.visitar2 img{
+.visitar2 img{	
 	height: 30rem;
 	padding-left: 4rem;
 	
 }
 /** fin de visitas**/
 .parques{
+	margin-top: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
-	background-color: rgb(34, 93, 253);
+	background-image: url(../Sources/vivelamejor.jpg);
+	background-size: cover;
 }
 .parques h3{
 	font-size: 4rem;
 }
 .parques p{
+	background-color: rgba(0, 0, 0, 0.068);
 	font-size: 3rem;
 	max-width: 50rem;
 	max-height: 30rem;	
@@ -114,14 +127,17 @@ body{
 }
 /** fin parques**/
 .compras{
+	margin-top: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
-	background-color: rgb(253, 34, 70);
+	background-image: url(../Sources/unicentro1Desenfoque.jpg);
+	background-size: cover;
 }
 .compras h3{
 	font-size: 4rem;
 }
 .compras p{
+	background-color: rgba(0, 0, 0, 0.068);
 	font-size: 3rem;
 	max-width: 50rem;
 	max-height: 30rem;	
@@ -154,12 +170,6 @@ body{
 .barraNavD a:hover{
 	color:tomato;
 }
-#solo{
-	margin-top: 10rem;
-	text-align: center;
-	margin-bottom: 10rem;
-}
-
 #foot img{
 	height: 5rem;
 	margin-right: 2rem;
