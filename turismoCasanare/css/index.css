@@ -23,11 +23,7 @@ body{
 .header img{
 	margin-top: 25rem;
 }
-.contenido-header h1{
-	color: white;
-	padding-bottom: 2rem;
-	line-height: 2;
-}
+
 .barraNav{
 	padding-top: 2rem;
 	display: flex;
@@ -48,6 +44,99 @@ body{
 .barraNav a:hover{
 	color:rgb(101, 245, 149);
 }
+.prueba{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.comer{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	background-color: khaki;
+}
+.comer h3{
+	font-size: 4rem;
+}
+.comer p{
+	font-size: 3rem;
+	max-width: 50rem;
+}
+/**fin comer**/
+.visitar2{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+.visitar{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	background-color: rgb(247, 148, 82);
+}
+.visitar h3{
+	direction: rtl;
+	font-size: 4rem;
+	padding-right: 4rem;
+}
+.visitar p{
+	font-size: 3rem;
+	max-width: 50rem;
+	max-height: 30rem;	
+}
+.visitar2 img{
+	height: 30rem;
+	padding-left: 4rem;
+	
+}
+/** fin de visitas**/
+.parques{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	background-color: rgb(34, 93, 253);
+}
+.parques h3{
+	font-size: 4rem;
+}
+.parques p{
+	font-size: 3rem;
+	max-width: 50rem;
+	max-height: 30rem;	
+}
+.parques2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.parques2 img{
+	height: 30rem;
+	padding-right: 4rem;
+	
+}
+/** fin parques**/
+.compras{
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	background-color: rgb(253, 34, 70);
+}
+.compras h3{
+	font-size: 4rem;
+}
+.compras p{
+	font-size: 3rem;
+	max-width: 50rem;
+	max-height: 30rem;	
+}
+.compras2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.compras2 img{
+	height: 30rem;
+	padding-right: 4rem;
+	
+}
+/**fin compras**/
 .barraNavD{
 	display: flex;
 	justify-content: space-between;
@@ -70,28 +159,7 @@ body{
 	text-align: center;
 	margin-bottom: 10rem;
 }
-.main{
-	display: grid;
-	grid-template-columns: 40rem 40rem;
-	grid-template-rows: 40rem 40rem;
-	grid-column-gap: 10rem;
-}
-.main{
-	padding-top: 1.5rem;
-	justify-content: center;
-}
-.main img{
-	height: 20rem;
-}
-.main p{
-	max-width: 35rem;
-	text-align: justify-all;
 
-}
-.main h3{
-	text-align: center;
-
-}
 #foot img{
 	height: 5rem;
 	margin-right: 2rem;
